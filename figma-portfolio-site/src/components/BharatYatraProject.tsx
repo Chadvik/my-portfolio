@@ -1,7 +1,7 @@
+import { PROJECT_VIDEOS } from "../config/projectMedia";
 import { usePortraitVideoFullscreen } from "../hooks/usePortraitVideoFullscreen";
 
-export const BHARATYATRA_VIDEO =
-  `${import.meta.env.BASE_URL}bharatyatra/BharatYatra.mp4`;
+export const BHARATYATRA_VIDEO = PROJECT_VIDEOS.bharatYatra;
 
 const KEY_FEATURES = [
   "Personalized itineraries via recommendation AI",

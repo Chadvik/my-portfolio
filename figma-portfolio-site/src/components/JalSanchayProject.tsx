@@ -1,9 +1,7 @@
+import { PROJECT_VIDEOS } from "../config/projectMedia";
 import { usePortraitVideoFullscreen } from "../hooks/usePortraitVideoFullscreen";
 
-/** Public URLs — filenames contain spaces; encode for reliable loading */
-export const JALSANCHAY_VIDEO =
-  `${import.meta.env.BASE_URL}jalsanchay/` +
-  encodeURIComponent("Jal-Sanchay for farmers.mp4");
+export const JALSANCHAY_VIDEO = PROJECT_VIDEOS.jalSanchay;
 
 const KEY_FEATURES = [
   "Profiles & languages (Hindi/English), Firebase auth, React admin dashboard",

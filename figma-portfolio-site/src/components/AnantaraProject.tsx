@@ -1,11 +1,5 @@
+import { PROJECT_VIDEOS } from "../config/projectMedia";
 import { usePortraitVideoFullscreen } from "../hooks/usePortraitVideoFullscreen";
-
-const ANANTARA_VIDEO_WEB = `${import.meta.env.BASE_URL}anantara/${encodeURIComponent(
-  "ANANTAARAA _ Web Platform and 1 more page - Personal - Microsoft_ Edge 2025-12-28 23-16-31.mp4",
-)}`;
-const ANANTARA_VIDEO_MOBILE = `${import.meta.env.BASE_URL}anantara/${encodeURIComponent(
-  "Mobile_ANANTAARA (1).mp4",
-)}`;
 
 function AnantaraPreviewVideos() {
   const mobileVideoRef = usePortraitVideoFullscreen();
@@ -18,7 +12,7 @@ function AnantaraPreviewVideos() {
       <figure className="fp-shot fp-shot--video fp-shot--anantara-web">
         <div className="fp-shot__media fp-shot__media--web">
           <video
-            src={ANANTARA_VIDEO_WEB}
+            src={PROJECT_VIDEOS.anantaraWeb}
             className="fp-shot__video"
             controls
             playsInline
@@ -35,7 +29,7 @@ function AnantaraPreviewVideos() {
         <div className="fp-shot__media fp-shot__media--phone">
           <video
             ref={mobileVideoRef}
-            src={ANANTARA_VIDEO_MOBILE}
+            src={PROJECT_VIDEOS.anantaraMobile}
             className="fp-shot__video anantara-mobile-video"
             controls
             playsInline
