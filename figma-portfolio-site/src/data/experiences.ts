@@ -76,7 +76,7 @@ export const experiences: Experience[] = [
     period: "Jul 2025 – Feb 2026",
     overview:
       "Shipped the Attendance Module in WowCare end-to-end with Flutter, built scalable Node.js/Express REST APIs, drove +35% user engagement (100+ users), and integrated payment gateways for Play & App Store releases.",
-    ...workCardVisual,
+    ...atoconnCardVisual,
     offset: "right",
     detail: {
       intro:
