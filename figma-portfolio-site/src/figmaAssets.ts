@@ -1,0 +1,35 @@
+/**
+ * Image URLs from Figma MCP (html.to.design portfolio import).
+ * These links expire after ~7 days — re-export from Figma or replace with permanent CDN URLs.
+ * Source file: https://www.figma.com/design/5ocVsmRlUXEabgaFEquK67/...
+ */
+
+const BASE_URL = import.meta.env.BASE_URL;
+
+export const assets = {
+  avatar1: `${BASE_URL}about/polaroid-1.jpeg`,
+  avatar2: `${BASE_URL}about/polaroid-5.png`,
+  avatar3: `${BASE_URL}about/polaroid-2.jpeg`,
+  heroIllustration: `${BASE_URL}about/polaroid-3.jpg`,
+  heroGlow: "https://www.figma.com/api/mcp/asset/7abd4f7a-7e52-4c28-a50d-c48cde2c919d",
+  project1a:
+    "https://www.figma.com/api/mcp/asset/79b099c1-4c8b-46e7-a89c-4ac18f7be03a",
+  project1b:
+    "https://www.figma.com/api/mcp/asset/139e4b89-5c77-4d95-a190-0b7c4b2d472e",
+  project2a:
+    "https://www.figma.com/api/mcp/asset/00a51619-db1e-466c-b53f-611fb068666e",
+  project2b:
+    "https://www.figma.com/api/mcp/asset/a900de3b-4a6d-4dd4-b915-e8ae71321210",
+  project3a:
+    "https://www.figma.com/api/mcp/asset/e029fd97-b8e7-4ea5-a455-594330f59b10",
+  project3b:
+    "https://www.figma.com/api/mcp/asset/cfb0ca4a-3e2f-4b90-8c7c-0f56beb415f0",
+  project4a:
+    "https://www.figma.com/api/mcp/asset/b8483983-4578-4428-ac1f-87d75bf80718",
+  project4b:
+    "https://www.figma.com/api/mcp/asset/7677a75e-6e5b-4c3d-9dd3-3ce9e0705e7e",
+  hireA: `${BASE_URL}about/polaroid-1.jpeg`,
+  hireB: `${BASE_URL}about/polaroid-2.jpeg`,
+  hireC: `${BASE_URL}about/polaroid-6.jpg`,
+  hireD: `${BASE_URL}about/polaroid-4.jpeg`,
+} as const;

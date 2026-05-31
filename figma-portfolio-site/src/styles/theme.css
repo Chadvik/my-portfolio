@@ -1,0 +1,66 @@
+/**
+ * Warm parchment theme — global design tokens
+ */
+:root {
+  /* Surfaces */
+  --bg: #f5efe4;
+  --bg-alt: #ebe3d6;
+  --surface: #fffbf5;
+  --surface-elevated: #ffffff;
+  --surface-muted: #f0e8dc;
+
+  /* Typography */
+  --text: #2c2419;
+  --text-muted: #5c4f42;
+  --text-subtle: #8a7968;
+  --heading: #1f1812;
+  --white: #fffbf5;
+
+  /* Accent — cognac / bronze */
+  --accent: #9a5b2e;
+  --accent-soft: #b8895a;
+  --accent-hover: #7d4a24;
+  --accent-muted: rgba(154, 91, 46, 0.12);
+  --accent-border: rgba(154, 91, 46, 0.32);
+  --accent-glow: rgba(154, 91, 46, 0.18);
+
+  --gallery: #ddd2c0;
+  --border: rgba(44, 36, 25, 0.14);
+  --border-light: rgba(44, 36, 25, 0.08);
+  --shadow-sm: rgba(44, 36, 25, 0.06);
+  --shadow-md: rgba(44, 36, 25, 0.12);
+  --shadow-lg: rgba(44, 36, 25, 0.18);
+
+  /* Footer */
+  --footer-bg: #3a2f26;
+  --footer-text: #f9f4ec;
+
+  /* Navigation */
+  --nav-pill-top: rgba(255, 251, 245, 0.94);
+  --nav-pill-bottom: rgba(235, 227, 214, 0.98);
+  --nav-text: #3a2f26;
+  --nav-border: rgba(44, 36, 25, 0.1);
+
+  /* Case study / detail pages */
+  --cs-ink: #2c2419;
+  --cs-muted: #5c4f42;
+  --cs-line: rgba(44, 36, 25, 0.12);
+  --cs-surface: rgba(255, 251, 245, 0.92);
+  --cs-surface-raised: #ffffff;
+  --cs-paper: #fffbf5;
+  --cs-accent-soft: rgba(154, 91, 46, 0.1);
+
+  /* Interactive highlights */
+  --highlight: #c4a574;
+  --highlight-bg: #e8dcc8;
+  --highlight-ink: #2c2419;
+
+  /* Fonts */
+  --font-sans: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", "Palatino Linotype", Georgia, serif;
+
+  --maxw: 1920px;
+  --gutter: clamp(1.25rem, 4vw, 5rem);
+
+  color-scheme: light;
+}
