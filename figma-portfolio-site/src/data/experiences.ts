@@ -31,11 +31,6 @@ const workCardVisual = {
   imageB: WORK_CARD_IMAGE_B,
 } as const;
 
-const atoconnCardVisual = {
-  imageA: `${BASE_URL}atoconn/wowcare.png`,
-  imageB: `${BASE_URL}atoconn/wowcare2.png`,
-} as const;
-
 export const experiences: Experience[] = [
   {
     id: "e1",
@@ -76,7 +71,7 @@ export const experiences: Experience[] = [
     period: "Jul 2025 – Feb 2026",
     overview:
       "Shipped the Attendance Module in WowCare end-to-end with Flutter, built scalable Node.js/Express REST APIs, drove +35% user engagement (100+ users), and integrated payment gateways for Play & App Store releases.",
-    ...atoconnCardVisual,
+    ...workCardVisual,
     offset: "right",
     detail: {
       intro:
