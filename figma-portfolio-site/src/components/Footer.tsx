@@ -1,7 +1,7 @@
 const GITHUB = "https://github.com/Chadvik";
 const MAIL = "mailto:satvikrao9@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/satvik-rao-ab9a22311/";
-const RESUME = `${import.meta.env.BASE_URL}resume/Satvik_Rao_SDE.pdf`;
+const RESUME = "https://drive.google.com/drive/folders/1Ebw3Cr2PxJ1UjGVIJVylK54KLUyIAoqh";
 
 export function Footer() {
   return (

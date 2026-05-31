@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 
 const GITHUB = "https://github.com/Chadvik";
-const RESUME = `${import.meta.env.BASE_URL}resume/Satvik_Rao_SDE.pdf`;
+const RESUME = "https://drive.google.com/drive/folders/1Ebw3Cr2PxJ1UjGVIJVylK54KLUyIAoqh";
 
 export function Navigation() {
   const { pathname } = useLocation();
