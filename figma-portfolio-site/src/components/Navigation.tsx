@@ -1,7 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
 
 const GITHUB = "https://github.com/Chadvik";
-const RESUME = "https://drive.google.com/drive/folders/1Ebw3Cr2PxJ1UjGVIJVylK54KLUyIAoqh";
+const RESUME =
+  "https://drive.google.com/file/d/1pMGEYH1WVakT4l6IA9TIjMo9HZOVqZjJ/view?usp=sharing";
 
 export function Navigation() {
   const { pathname } = useLocation();
